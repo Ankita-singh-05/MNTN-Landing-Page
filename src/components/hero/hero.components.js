@@ -12,6 +12,7 @@ function HeroComponent() {
           <div className="absolute w-77 h-22 rotate-90 leading-10">
             Follow us
           </div>
+         
           <div className="list-none leading">
             <li className="top-[]">
               {" "}

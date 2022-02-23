@@ -4,7 +4,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const GetStarted = () => {
   return (
     <>
-      <div className="content1-container">
+      <div className="content1-container flex m-14 gap-4">
         <div className="content1-content">
           <div className="flex">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-3"></div>
@@ -19,13 +19,14 @@ const GetStarted = () => {
             you – novice, moderate, advanced moderate, expert, or expert
             backpacker?
           </p>
-          <p className="flex flex-row">
-            scroll down <HiOutlineArrowNarrowRight className="mt-1" />
+          <p className="flex flex-row gap-2">
+            read more <HiOutlineArrowNarrowRight className="mt-1" />
           </p>
         </div>
 
         <div className="content1-image">
-            <img src=""></img>
+            <img src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80" alt="Get_Started"
+            className="h-96 w-[52rem]"></img>
         </div>
       </div>
     </>
