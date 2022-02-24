@@ -7,11 +7,11 @@ import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 function HeroComponent() {
   return (
     <>
-      <div className="hero-container flex justify-between m-5 ">
+      <div className="hero-container flex justify-between m-5">
         {/* Social Links */}
-        <div className="mt-16">
-          <div className="rotate-90 leading-10">Follow us</div>
-          <div className="list-none m-5">
+        <div className="mt-16 space-y-8">
+          <div className="rotate-90">Follow us</div>
+          <div className="list-none m-5 space-y-3">
             <li className="">
               {" "}
               <IoLogoInstagram />{" "}
