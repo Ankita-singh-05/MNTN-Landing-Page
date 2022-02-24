@@ -8,13 +8,11 @@ function HeroComponent() {
   return (
     <>
       <div className="hero-container flex justify-between m-5 ">
-        <div className="social">
-          <div className="absolute w-77 h-22 rotate-90 leading-10">
-            Follow us
-          </div>
-         
-          <div className="list-none leading">
-            <li className="top-[]">
+        {/* Social Links */}
+        <div className="mt-16">
+          <div className="rotate-90 leading-10">Follow us</div>
+          <div className="list-none m-5">
+            <li className="">
               {" "}
               <IoLogoInstagram />{" "}
             </li>
@@ -25,6 +23,7 @@ function HeroComponent() {
           </div>
         </div>
 
+        {/* Hero Content */}
         <div className="hero-content">
           <div className="flex">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-3"></div>
@@ -36,6 +35,7 @@ function HeroComponent() {
           </p>
         </div>
 
+        {/* Scrollbar */}
         <div className="scrollbar list-none flex gap-3">
           <div className="scrollbar-content flex flex-col items-end">
             <li>Start</li>
@@ -43,8 +43,10 @@ function HeroComponent() {
             <li>02</li>
             <li>03</li>
           </div>
-          <div className="h-240 w-0.5 bg-[#e4d9d9] relative"></div>
-          <div className="h-100 w-0.5 bg-[#ffffff] absolute"></div>
+          <div className="relative">
+            {/* <div className="h-240 w-0.5 bg-[#89d137]"></div> */}
+            <div className="h-240 w-0.5 bg-[#990505] absolute"></div>
+          </div>
         </div>
       </div>
     </>

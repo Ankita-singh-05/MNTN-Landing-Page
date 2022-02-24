@@ -19,7 +19,7 @@ const GetStarted = () => {
             you – novice, moderate, advanced moderate, expert, or expert
             backpacker?
           </p>
-          <p className="flex flex-row gap-2">
+          <p className="flex flex-row gap-2 text-[#FBD784]">
             read more <HiOutlineArrowNarrowRight className="mt-1" />
           </p>
         </div>
