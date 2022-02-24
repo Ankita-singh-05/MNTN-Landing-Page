@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <div className="flex justify-between m-14">
-      <div>
+      <div className="text-[#fff]">
         <h1 className="mb-4 font-[Chronicle Display] tracking-[0.01em] text-[32px]">MNTN</h1>
         <div className="font-[Gilroy] text-[18px]">
           <p className="w-56 font-bold">
@@ -19,7 +19,7 @@ function Footer() {
         <h1 className="text-[#FBD784] mb-4 font-bold text-[24px]">
           More on The Blog
         </h1>
-        <div className="list-none text-[18px] space-y-4 font-medium">
+        <div className="list-none text-[18px] space-y-4 font-medium text-[#fff]">
           <li>About MNTN</li>
           <li>Contributors & Writers</li>
           <li>Write For Us</li>
@@ -32,7 +32,7 @@ function Footer() {
         <h1 className="text-[#FBD784] mb-4 font-bold text-[24px]">
           More on MNTN
         </h1>
-        <div className="list-none text-[18px] space-y-4 font-medium">
+        <div className="list-none text-[18px] space-y-4 font-medium text-[#fff]">
           <li>The Team</li>
           <li>Jobs</li>
           <li>Press</li>
