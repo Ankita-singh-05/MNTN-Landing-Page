@@ -1,9 +1,15 @@
 import React from "react";
 import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 
+//images
+import VgImage from "../images/vg" ;
+
 const GetStarted = () => {
   return (
     <>
+  <div className="mt-[11.6rem]">
+    <img src={VgImage.vgImage} className=""></img>
+  </div>
       <div className="content1-container flex p-12 gap-4">
         <div className="mt-12">
           <div className="flex">

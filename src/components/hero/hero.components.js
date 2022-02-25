@@ -4,10 +4,16 @@ import { IoLogoInstagram } from "react-icons/io";
 import { FiTwitter } from "react-icons/fi";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
 
+// Background
+import HeroImage from "../images/hero";
+
 function HeroComponent() {
   return (
     <>
-      <div className="hero-container flex justify-between m-5">
+    <div className="absolute">
+    <img src={HeroImage.heroImage} alt="hero image"></img>
+    </div>
+      <div className="hero-container flex justify-between m-5 relative">
         {/* Social Links */}
         <div className="mt-16 space-y-9 text-white text-[18px]">
           <div className="rotate-90 font-bold">Follow us</div>
