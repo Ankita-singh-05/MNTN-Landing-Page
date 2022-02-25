@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex justify-between m-14">
+    <div className="flex justify-between p-9">
       <div className="text-[#fff]">
         <h1 className="mb-4 font-[Chronicle Display] tracking-[0.01em] text-[32px]">MNTN</h1>
         <div className="font-[Gilroy] text-[18px]">

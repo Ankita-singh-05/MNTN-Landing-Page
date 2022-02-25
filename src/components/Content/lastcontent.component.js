@@ -4,7 +4,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const GetStarted = () => {
   return (
     <>
-      <div className="content1-container flex m-14 gap-5">
+      <div className="content1-container flex p-12 gap-5">
         <div className="mt-12">
           <div className="flex">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-3"></div>

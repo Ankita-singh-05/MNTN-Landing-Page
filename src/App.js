@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="bg-[#1f272c]"> 
-        <Navbar />
+        <Navbar className=""/>
         <HeroComponent />
         <GetStarted />
         <HikingEssentials />

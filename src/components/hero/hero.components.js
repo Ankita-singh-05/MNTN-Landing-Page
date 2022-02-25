@@ -39,16 +39,16 @@ function HeroComponent() {
 
         {/* Scrollbar */}
         <div className="scrollbar list-none flex gap-3 text-white">
-          <div className="scrollbar-content flex flex-col items-end">
+          <div className="scrollbar-content flex flex-col items-end space-y-1">
             <li>Start</li>
             <li>01</li>
             <li>02</li>
             <li>03</li>
           </div>
-          
-            <div className="h-[100px] w-0.5 bg-[#89d137]"></div>
-            <div className="h-[50px] w-0.5 bg-[#990505]"></div>
-          
+          <div className="ml-4">
+            <div className="h-[120px] w-0.5 bg-[#868685] absolute"></div>
+            <div className="h-[40px] w-0.5 bg-[#f1e9e9] relative"></div>
+          </div>
         </div>
       </div>
     </>
