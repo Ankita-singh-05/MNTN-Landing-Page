@@ -11,7 +11,7 @@ function HeroComponent() {
   return (
     <>
     <div className="absolute">
-    <img src={HeroImage.heroImage} alt="hero image"></img>
+    <img src={HeroImage.heroImage} alt="hero image" className=""></img>
     </div>
       <div className="hero-container flex justify-between m-5 relative">
         {/* Social Links */}
