@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
 <div className="absolute">
-    <img src={CloudImage.cloudImage} alt="Clouds" className="h-60"></img>
+    <img src={CloudImage.cloudImage} alt="Clouds" className=""></img>
     </div>
 
       <div className="">
