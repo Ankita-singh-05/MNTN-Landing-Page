@@ -7,8 +7,8 @@ import VgImage from "../images/vg" ;
 const GetStarted = () => {
   return (
     <>
-  <div className="mt-[10.3rem]">
-    <img src={VgImage.vgImage} className=""></img>
+  <div className="mt-[10.4rem] relative">
+    <img src={VgImage.vgImage} className="z-30"></img>
   </div>
       <div className="content1-container flex p-12 gap-4">
         <div className="mt-12">

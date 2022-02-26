@@ -13,11 +13,11 @@ function Navbar() {
   return (
     <>
 <div className="absolute">
-    <img src={CloudImage.cloudImage} alt="Clouds" className=""></img>
+    <img src={CloudImage.cloudImage} alt="Clouds" className="z-10"></img>
     </div>
 
-      <div className="navbar-toggler">
-        <nav className="flex justify-between relative">
+      <div className="navbar-toggler relative">
+        <nav className="flex justify-between ">
           <div className="font-[Chronicle Display] text-[32px] text-white tracking-[0.01em] m-8">
             MNTN
           </div>
