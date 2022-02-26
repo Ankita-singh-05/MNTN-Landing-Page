@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <>
 <div className="absolute">
-    <img src={CloudImage.cloudImage} alt="Clouds" className="z-10"></img>
+    <img src={CloudImage.cloudImage} alt="Clouds" className="cloud-image"></img>
     </div>
 
       <div className="navbar-toggler relative">

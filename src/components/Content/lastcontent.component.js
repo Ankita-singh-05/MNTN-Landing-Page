@@ -7,7 +7,7 @@ const GetStarted = () => {
       <div className="content1-container flex p-12 gap-5">
         <div className="mt-12">
           <div className="flex">
-            <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-3"></div>
+            <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[8.2px]"></div>
             <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px]">
               where you go is the key
             </h3>

@@ -1,4 +1,5 @@
 import React from "react";
+import "./App.css";
 
 // Components
 import Navbar from "./components/navbar/navbar.component";
@@ -11,7 +12,7 @@ import Footer from "./components/footer/footer.component";
 function App() {
   return (
     <>
-      <div className="bg-[#62727c]"> 
+      <div className="bg-[#354147]"> 
         <Navbar/>
         <HeroComponent />
         <GetStarted />
