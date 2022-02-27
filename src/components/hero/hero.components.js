@@ -64,13 +64,13 @@ function HeroComponent() {
       </div>
 
       {/* Get Started Component */}
-      <div className="relative mt-[13rem]">
-    <img src={VgImage.vgImage} className="vg-image"></img>
+      <div className="relative mt-[13rem] sm:mt-[9.4rem] md:mt-[11.3rem]">
+    <img src={VgImage.vgImage} className="vg-image "></img>
   </div>
       <div className="content1-container flex ml-14 gap-4">
         <div className="mt-12">
           <div className="flex">
-            <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[8.2px]"></div>
+            <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[5px]"></div>
             <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px]">GET STARTED</h3>
           </div>
           <h1 className="text-[#fff] font-semibold text-[64px] font-[Chronicle Display] w-[10em]">What level of hiker are you?</h1>
