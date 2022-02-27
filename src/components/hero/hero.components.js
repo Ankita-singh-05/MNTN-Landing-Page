@@ -64,10 +64,11 @@ function HeroComponent() {
       </div>
 
       {/* Get Started Component */}
-      <div className="relative mt-[13rem] sm:mt-[9.4rem] md:mt-[11.3rem]">
+     <div className="">
+     <div className="relative mt-[13rem] sm:mt-[9.4rem] md:mt-[11.3rem]">
     <img src={VgImage.vgImage} className="vg-image "></img>
   </div>
-      <div className="content1-container flex ml-14 gap-4">
+      <div className="content1-container flex ml-14 gap-4 ">
         <div className="mt-12">
           <div className="flex">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[5px]"></div>
@@ -92,6 +93,7 @@ function HeroComponent() {
             className="h-[30rem] w-[24rem] object-cover"></img>
         </div>
       </div>
+     </div>
     </>
   );
 }
