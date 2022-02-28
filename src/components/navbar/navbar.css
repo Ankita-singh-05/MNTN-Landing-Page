@@ -1,0 +1,12 @@
+:root {
+    --primary: rgb(189, 71, 71);
+    --secondary: rgb(201, 177, 45);
+}
+
+.cloud-image {
+    /* position: absolute; */
+    /* background: linear-gradient(to left, rgb(189, 71, 71), rgb(46, 45, 45) 50%, #eee 75%, rgb(44, 43, 43) 75%); */
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    /* z-index: -1; */
+
+}

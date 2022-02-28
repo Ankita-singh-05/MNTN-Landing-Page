@@ -65,7 +65,7 @@ function HeroComponent() {
 
       {/* Get Started Component */}
      <div className="">
-     <div className="relative mt-[13rem] sm:mt-[9.4rem] md:mt-[11.3rem]">
+     <div className="sbsolute mt-[21.3rem] sm:mt-[9.4rem] md:mt-[11.3rem]">
     <img src={VgImage.vgImage} className="vg-image "></img>
   </div>
       <div className="content1-container flex ml-14 gap-4 ">
