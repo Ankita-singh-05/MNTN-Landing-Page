@@ -20,7 +20,7 @@ function Navbar() {
           
           <div
             className="list-none flex space-x-5 text-[18px] text-white font-[
-            Gilroy] font-semibold m-8 dropdown-menu"
+            Gilroy] font-semibold m-8 "
           >
             <li >Equipment</li>
             <li>About Us</li>

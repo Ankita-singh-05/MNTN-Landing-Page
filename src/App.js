@@ -12,7 +12,7 @@ import Footer from "./components/footer/footer.component";
 function App() {
   return (
     <>
-      <div className="bg-[#3d484e]"> 
+      <div className="bg-[#061a25]"> 
         <Navbar/>
         <HeroComponent />
         {/* <GetStarted /> */}

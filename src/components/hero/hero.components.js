@@ -40,7 +40,7 @@ function HeroComponent() {
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-3"></div>
             <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px]">A HIKING GUIDE</h3>
           </div>
-          <p className="font-[Chronicle Display] font-semibold text-[55px] leading-[100px] w-[38rem] text-white">
+          <p className="font-[Chronicle Display] font-semibold text-[55px] leading-[100px] w-[38rem] text-[#81817f]">
             Be Prepared For The Mountains and Beyond!
           </p>
           <p className="flex flex-row text-white font-[Gilroy] text-[18px]">
