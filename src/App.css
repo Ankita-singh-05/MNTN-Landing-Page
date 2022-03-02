@@ -1,27 +1,127 @@
-
-
-.cloud-image {
-    background-color: grey;
-    background : linear-gradient();
-    background-image: linear-gradient(from top, #7a7e81 0%, #282d30 100%);
+body {
+    background-color:#061a25;
 }
 
-/* @media (min-width: 768px) {
-    .cloud-image{
-        height: 100%;
+
+
+.vg-image {
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
+    border:#0B1D26 ;
+    box-shadow: 0px 150px 10rem -6px #0B1D26;
+
+}
+
+
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .hero-image-container{
+        margin-top: 38px;
     }
 
-    .vg-image-container {
-        margin-top: 120rem;
+    .hero-title {
+        font-size: 27px;
     }
 
+    .scrollbar-container{
+        margin-right: 20px;
+    }
+    
+    .hero-title{
+        font-size: 12px;
+    }
 
+    .hero-para {
+        font-size: 26px;
+        width: 17rem;
+    }
+
+    .vg-image {
+        margin-top: 1px;
+    }
+
+    .content-main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content-title{
+        font-size: 16px;
+    }
+
+    .content-heading {
+        font-size: 2.5rem;
+    }
+
+    .content-para {
+        width: 27rem;
+    }
+    
+    .read-more-para {
+        font-size: 16px;
+    }
+
+    .content-image{
+        height: 15rem;
+        width: 15rem;
+    }
 }
 
-@media (min-width: 1024px) {
+/* For tablets */
+@media only screen and (min-width: 600px) {
+        .hero-image-container{
+            margin-top: 8rem;
+        }
+        
+        .social-links-container {
+            margin-left: 10px;
+        } 
 
+        .hero-title {
+            font-size: 14px;
+        }
+
+        .hero-para {
+            font-size: 28px;
+            width: 18rem;
+        }
+       
+        .vg-image {
+            margin-top: 3rem;
+        }
+
+       
 }
 
-@media (min-width: 1254px) {
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .hero-content{
+        margin-top: 20rem;
+    }
 
-} */
+    .hero-para {
+        font-size: 38px;
+        width: 28rem;
+    }
+
+    .scroll-down {
+        font-size: 16px;
+    }
+
+    
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .hero-para {
+        font-size: 50px;
+        width: 36rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}

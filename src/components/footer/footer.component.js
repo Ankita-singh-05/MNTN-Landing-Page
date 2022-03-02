@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div className="flex justify-between p-9">
       <div className="text-[#fff]">
-        <h1 className="mb-4 font-[Chronicle Display] tracking-[0.01em] text-[32px]">MNTN</h1>
+        <h1 className="mb-4 font-[Playfair-Display] tracking-[0.01em] text-[32px]">MNTN</h1>
         <div className="font-[Gilroy] text-[18px]">
           <p className="w-56 font-bold">
             Get out there & discover your next slope, mountain & destination!

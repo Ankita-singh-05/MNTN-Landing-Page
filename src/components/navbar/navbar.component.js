@@ -1,6 +1,5 @@
 import React from "react";
 import { VscAccount } from "react-icons/vsc";
-import "../navbar/navbar.css";
 
 // Background
 import CloudImage from "../images/cloud";
@@ -10,11 +9,11 @@ function Navbar() {
     <>
 
       <div className="absolute cloud-image-container ">
-    <img src={CloudImage.cloudImage} alt="Clouds" className="cloud-image "></img>
+    <img src={CloudImage.cloudImage} alt="Clouds" className="cloud-image opacity-[0.6]"></img>
     </div>
 
         <nav className="flex justify-between navbar-toggler relative">
-          <div className="font-[Chronicle Display] text-[32px] text-white tracking-[0.01em] m-6">
+          <div className="font-[Playfair-Display] text-[32px] text-white tracking-[0.01em] m-6">
             MNTN
           </div>
           
