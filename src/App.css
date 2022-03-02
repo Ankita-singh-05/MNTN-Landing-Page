@@ -5,7 +5,6 @@ body {
 .vg-image {
     background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 91.38%);
     box-shadow: 0px 15rem 10rem #0B1D26;
-
 }
 
 
@@ -70,6 +69,12 @@ body {
         height: 15rem;
         width: 15rem;
     }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
 }
 
 /* For tablets */
@@ -112,8 +117,8 @@ body {
     }
 
     .hero-para {
-        font-size: 44px;
-        width: 30rem;
+        font-size: 50px;
+        width: 34rem;
     }
     
 }

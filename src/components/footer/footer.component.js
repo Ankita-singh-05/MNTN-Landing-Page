@@ -2,8 +2,8 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="flex justify-between p-9">
-      <div className="text-[#fff]">
+    <div className="flex justify-between p-9 footer-container">
+      <div className="text-[#fff] footer-content1">
         <h1 className="mb-4 font-[Playfair-Display] tracking-[0.01em] text-[32px]">MNTN</h1>
         <div className="font-[Gilroy] text-[16px]">
           <p className="w-56 font-bold">
@@ -15,7 +15,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="font-[Gilroy]">
+      <div className="font-[Gilroy] footer-content2">
         <h1 className="text-[#FBD784] mb-4 font-bold text-[24px]">
           More on The Blog
         </h1>
@@ -28,7 +28,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="font-[Gilroy]">
+      <div className="font-[Gilroy] footer-content3">
         <h1 className="text-[#FBD784] mb-4 font-bold text-[24px]">
           More on MNTN
         </h1>
