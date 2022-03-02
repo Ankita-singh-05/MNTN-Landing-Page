@@ -12,7 +12,7 @@ const GetStarted = () => {
               where you go is the key
             </h3>
           </div>
-          <h1 className="text-[#fff] font-semibold text-[64px] font-[Chronicle Display] w-[10em] content-heading">
+          <h1 className="text-[#fff] font-semibold text-[64px] font-[Playfair-Display] w-[10em] content-heading">
             Understand Your Map & Timing
           </h1>
           <p className="text-[#fff] w-[632px] text-[18px]  font-[Gilroy] mt-3 content-para">

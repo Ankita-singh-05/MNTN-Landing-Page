@@ -5,11 +5,11 @@ function Footer() {
     <div className="flex justify-between p-9">
       <div className="text-[#fff]">
         <h1 className="mb-4 font-[Playfair-Display] tracking-[0.01em] text-[32px]">MNTN</h1>
-        <div className="font-[Gilroy] text-[18px]">
+        <div className="font-[Gilroy] text-[16px]">
           <p className="w-56 font-bold">
             Get out there & discover your next slope, mountain & destination!
           </p>
-          <p className="mt-[4.8em] font-medium opacity-[0.5]">
+          <p className="mt-[5.5em] font-medium opacity-[0.5]">
             Copyright 2019 MNTN, Inc. Terms & Privacy
           </p>
         </div>

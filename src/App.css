@@ -5,9 +5,8 @@ body {
 
 
 .vg-image {
-    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 61.38%);
-    border:#0B1D26 ;
-    box-shadow: 0px 150px 10rem -6px #0B1D26;
+    background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 91.38%);
+    box-shadow: 0px 15rem 10rem #0B1D26;
 
 }
 
@@ -91,6 +90,13 @@ body {
             margin-top: 3rem;
         }
 
+        .content-para {
+            width: 32rem;
+        }
+
+    
+        
+
        
 }
 
@@ -98,15 +104,6 @@ body {
 @media only screen and (min-width: 768px) {
     .hero-content{
         margin-top: 20rem;
-    }
-
-    .hero-para {
-        font-size: 38px;
-        width: 28rem;
-    }
-
-    .scroll-down {
-        font-size: 16px;
     }
 
     
@@ -119,6 +116,15 @@ body {
         font-size: 50px;
         width: 36rem;
     }
+
+    .content-para {
+        width: 32rem;
+    }
+    
+    .content-heading {
+        width: 38rem;
+    }
+   
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

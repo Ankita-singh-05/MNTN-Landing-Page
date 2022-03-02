@@ -55,7 +55,7 @@ function HeroComponent() {
         </div>
 
         {/* Scrollbar */}
-        <div className="scrollbar-container list-none flex gap-3 text-white mt-4">
+        <div className="scrollbar-container list-none flex  text-white mt-4">
           <div className="scrollbar-content flex flex-col items-end space-y-1">
             <li>Start</li>
             <li>01</li>
@@ -70,19 +70,19 @@ function HeroComponent() {
       </div>
 
       {/* Get Started Component */}
-      <div className="">
-        <div className="relative vg-image-container">
+      <div className="relative">
+        <div className="relative vg-image-container z-10  opacity-">
           <img src={VgImage.vgImage} className="vg-image"></img>
         </div>
-        <div className="content-main-container flex ml-14 gap-4 ">
+        <div className="content-main-container  flex ml-16 gap-3">
           <div className="mt-12 getstarted-content">
             <div className="flex">
-              <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[5px]"></div>
+              <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[7px]"></div>
               <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px] content-title">
                 GET STARTED
               </h3>
             </div>
-            <h1 className="text-[#fff] font-semibold text-[64px] font-[Chronicle Display] w-[10em] content-heading">
+            <h1 className="text-[#fff] font-semibold text-[64px] font-[Playfair-Display] content-heading">
               What level of hiker are you?
             </h1>
             <p className="text-[#fff] w-[632px] text-[18px]  font-[Gilroy] mt-3 content-para">
@@ -98,7 +98,7 @@ function HeroComponent() {
             </p>
           </div>
 
-          <div className="ml-10 content-image-container">
+          <div className="mr-16 content-image-container">
             <img
               src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MTh8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80"
               alt="Get_Started"
