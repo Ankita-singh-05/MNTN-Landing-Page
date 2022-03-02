@@ -22,9 +22,9 @@ function HeroComponent() {
           className="hero-image"
         ></img>
       </div>
-      <div className="hero-container flex justify-between m-5 relative">
+      <div className="hero-container flex justify-between relative">
         {/* Social Links */}
-        <div className="mt-16 space-y-9 text-white text-[18px]">
+        <div className="mt-20 space-y-9 text-white text-[18px] social-link-container">
           <div className="rotate-90 font-bold">Follow us</div>
           <div className="list-none m-7 space-y-4">
             <li className="">
@@ -55,7 +55,7 @@ function HeroComponent() {
         </div>
 
         {/* Scrollbar */}
-        <div className="scrollbar-container list-none flex  text-white mt-4">
+        <div className="scrollbar-container list-none flex  text-white mt-5 mr-7">
           <div className="scrollbar-content flex flex-col items-end space-y-1">
             <li>Start</li>
             <li>01</li>
