@@ -74,7 +74,7 @@ function HeroComponent() {
         <div className="relative vg-image-container z-10  opacity-">
           <img src={VgImage.vgImage} className="vg-image"></img>
         </div>
-        <div className="content-main-container  flex ml-16 gap-3">
+        <div className="content-main-container mt-12 flex ml-16 gap-3">
           <div className="mt-12 getstarted-content">
             <div className="flex">
               <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[7px]"></div>
