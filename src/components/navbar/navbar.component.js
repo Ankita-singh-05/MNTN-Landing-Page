@@ -19,7 +19,7 @@ function Navbar() {
           
           <div
             className="list-none flex space-x-5 text-[18px] text-white font-[
-            Gilroy] font-semibold m-8 "
+            Gilroy] font-semibold m-8 navbar-items"
           >
             <li >Equipment</li>
             <li>About Us</li>
