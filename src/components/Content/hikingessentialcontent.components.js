@@ -4,7 +4,7 @@ import { HiOutlineArrowNarrowRight } from "react-icons/hi";
 const HikingEssentials = () => {
   return (
     <>
-      <div className="content-main-container flex p-14 gap-[5rem]">
+      <div className="content-main-container2 flex p-14 gap-[5rem]">
         <div className="mr-10 content-image-conatiner">
           <img
             src="https://images.squarespace-cdn.com/content/v1/5d60be6b9791880001b7f54d/1570925030171-IZHRADBKBJXKC36XC0DQ/lucas-clara-hvPB-UCAmmU-unsplash.jpg?format=1000w"

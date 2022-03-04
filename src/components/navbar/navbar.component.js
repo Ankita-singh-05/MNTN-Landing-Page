@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <>
 
-      <div className="absolute cloud-image-container ">
+      <div className="absolute cloud-image-container">
     <img src={CloudImage.cloudImage} alt="Clouds" className="cloud-image opacity-[0.6]"></img>
     </div>
 

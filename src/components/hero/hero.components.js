@@ -15,7 +15,7 @@ import HeroImage from "../images/hero";
 function HeroComponent() {
   return (
     <>
-      <div className="absolute hero-image-container mt-6">
+      <div className="absolute hero-image-container ">
         <img
           src={HeroImage.heroImage}
           alt="hero image"
@@ -39,7 +39,7 @@ function HeroComponent() {
         </div>
 
         {/* Hero Content */}
-        <div className="hero-content mt-3">
+        <div className="hero-content mt-5">
           <div className="flex gap-2">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-2"></div>
             <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px] hero-title">
@@ -70,7 +70,7 @@ function HeroComponent() {
       </div>
 
       {/* Get Started Component */}
-      <div className="relative">
+      <div className="relative getstarted-component">
         <div className="relative vg-image-container z-10  opacity-">
           <img src={VgImage.vgImage} className="vg-image"></img>
         </div>
