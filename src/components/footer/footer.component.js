@@ -9,7 +9,7 @@ function Footer() {
           <p className="w-56 font-bold">
             Get out there & discover your next slope, mountain & destination!
           </p>
-          <p className="mt-[5.5em] font-medium opacity-[0.5]">
+          <p className="mt-[5.5em] font-medium opacity-[0.5] copyright-para">
             Copyright 2019 MNTN, Inc. Terms & Privacy
           </p>
         </div>

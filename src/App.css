@@ -4,7 +4,7 @@ body {
 
 .vg-image {
     background: linear-gradient(180deg, rgba(11, 29, 38, 0) 0%, #0B1D26 91.38%);
-    box-shadow: 0px 10rem 10rem #0B1D26;
+    box-shadow: 0px 5rem 10rem #0B1D26;
 }
 
 
@@ -91,6 +91,22 @@ body {
         justify-content: center;
         align-items: center;
         margin: 20px;
+    }
+
+    .footer-container {
+        margin-left: 15px;
+    }
+   
+    .footer-heading {
+        font-size: 1.5rem;
+    }
+
+    .footer-items {
+        font-size: 16px;
+    }
+
+    .copyright-para {
+        margin-top: 12px;
     }
 }
 
