@@ -11,8 +11,8 @@ import Footer from "./components/footer/footer.component";
 function App() {
   return (
     <>
-      <div className="bg-[#061a25]"> 
-        <Navbar/>
+      <div>
+        <Navbar />
         <HeroComponent />
         <HikingEssentials />
         <WhereYouGo />
@@ -20,6 +20,6 @@ function App() {
       </div>
     </>
   );
-};
+}
 
 export default App;

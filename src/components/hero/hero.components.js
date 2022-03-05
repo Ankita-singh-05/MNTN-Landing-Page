@@ -69,6 +69,7 @@ function HeroComponent() {
         </div>
       </div>
 
+
       {/* Get Started Component */}
       <div className="relative getstarted-component">
         <div className="relative vg-image-container z-10  opacity-">

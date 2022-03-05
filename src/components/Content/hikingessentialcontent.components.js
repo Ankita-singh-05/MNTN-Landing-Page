@@ -15,9 +15,13 @@ const HikingEssentials = () => {
         <div className="content1-content">
           <div className="flex mt-10">
             <div className="w-11 h-0.5 left-0 bg-[#FBD784] mt-[8.2px]"></div>
-            <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px] content-title">Hiking Essentials</h3>
+            <h3 className="ml-4 text-[#FBD784] font-[Gilroy] font-extrabold text-[18px] tracking-[6px] content-title">
+              Hiking Essentials
+            </h3>
           </div>
-          <h1 className="text-[#fff] font-semibold text-[64px] font-[Playfair-Display] w-[10em] content-heading ">Picking the right Hiking Gear!</h1>
+          <h1 className="text-[#fff] font-semibold text-[64px] font-[Playfair-Display] w-[10em] content-heading ">
+            Picking the right Hiking Gear!
+          </h1>
           <p className="text-[#fff] w-[632px] text-[18px]  font-[Gilroy] mt-3 content-para">
             The nice thing about beginning hiking is that you don’t really need
             any special gear, you can probably get away with things you already
